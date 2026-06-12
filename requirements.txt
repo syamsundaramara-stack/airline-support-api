@@ -1,1 +1,35 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+streamlit==1.39.0
+requests==2.32.3
+python-dotenv==1.0.1
+pydantic==2.9.2
 
+# LangChain ecosystem
+langchain==0.3.7
+langchain-core==0.3.15
+langchain-openai==0.2.6
+langchain-community==0.3.7
+langchain-huggingface==0.1.2
+langchain-pinecone==0.2.0
+langchain-experimental==0.3.3
+langgraph==0.2.38
+
+# Embeddings & Vector Store
+sentence-transformers==2.7.0
+pinecone==5.3.1
+
+# Database
+psycopg2-binary==2.9.10
+
+# Data
+pandas==2.2.3
+numpy==1.26.4
+
+# PDF
+pymupdf==1.24.13
+pypdf==5.1.0
+
+# OpenAI
+openai==1.52.2
